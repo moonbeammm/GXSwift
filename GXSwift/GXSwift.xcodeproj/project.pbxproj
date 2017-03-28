@@ -15,6 +15,15 @@
 		E41D69B51E8AC7E1002A464F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41D69B31E8AC7E1002A464F /* LaunchScreen.storyboard */; };
 		E41D69C01E8AC7E1002A464F /* GXSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69BF1E8AC7E1002A464F /* GXSwiftTests.swift */; };
 		E41D69CB1E8AC7E1002A464F /* GXSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69CA1E8AC7E1002A464F /* GXSwiftUITests.swift */; };
+		E41D69E91E8ACA97002A464F /* GXPhoneBaseNaviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DA1E8ACA97002A464F /* GXPhoneBaseNaviVC.swift */; };
+		E41D69EA1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DB1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift */; };
+		E41D69EB1E8ACA97002A464F /* GXPhoneBaseTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DC1E8ACA97002A464F /* GXPhoneBaseTableVC.swift */; };
+		E41D69EC1E8ACA97002A464F /* GXPhoneBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DD1E8ACA97002A464F /* GXPhoneBaseVC.swift */; };
+		E41D69ED1E8ACA97002A464F /* GXPhoneBaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DE1E8ACA97002A464F /* GXPhoneBaseVM.swift */; };
+		E41D69EE1E8ACA97002A464F /* GXPhoneCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E11E8ACA97002A464F /* GXPhoneCategoryVC.swift */; };
+		E41D69EF1E8ACA97002A464F /* GXPhoneHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E41E8ACA97002A464F /* GXPhoneHomeVC.swift */; };
+		E41D69F01E8ACA97002A464F /* GXPhoneSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */; };
+		E41D69F11E8ACA97002A464F /* GXPhoneUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		E41D69C61E8AC7E1002A464F /* GXSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D69CA1E8AC7E1002A464F /* GXSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GXSwiftUITests.swift; sourceTree = "<group>"; };
 		E41D69CC1E8AC7E1002A464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41D69DA1E8ACA97002A464F /* GXPhoneBaseNaviVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneBaseNaviVC.swift; sourceTree = "<group>"; };
+		E41D69DB1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneBaseTabBarVC.swift; sourceTree = "<group>"; };
+		E41D69DC1E8ACA97002A464F /* GXPhoneBaseTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneBaseTableVC.swift; sourceTree = "<group>"; };
+		E41D69DD1E8ACA97002A464F /* GXPhoneBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneBaseVC.swift; sourceTree = "<group>"; };
+		E41D69DE1E8ACA97002A464F /* GXPhoneBaseVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneBaseVM.swift; sourceTree = "<group>"; };
+		E41D69E11E8ACA97002A464F /* GXPhoneCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneCategoryVC.swift; sourceTree = "<group>"; };
+		E41D69E41E8ACA97002A464F /* GXPhoneHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneHomeVC.swift; sourceTree = "<group>"; };
+		E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneSearchVC.swift; sourceTree = "<group>"; };
+		E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneUserVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +139,7 @@
 		E41D69A91E8AC7E1002A464F /* GXSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E41D69D81E8ACA97002A464F /* GXPhone */,
 				E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */,
 				E41D69AC1E8AC7E1002A464F /* ViewController.swift */,
 				E41D69AE1E8AC7E1002A464F /* Main.storyboard */,
@@ -147,6 +166,78 @@
 				E41D69CC1E8AC7E1002A464F /* Info.plist */,
 			);
 			path = GXSwiftUITests;
+			sourceTree = "<group>";
+		};
+		E41D69D81E8ACA97002A464F /* GXPhone */ = {
+			isa = PBXGroup;
+			children = (
+				E41D69D91E8ACA97002A464F /* Base */,
+				E41D69DF1E8ACA97002A464F /* Business */,
+			);
+			path = GXPhone;
+			sourceTree = "<group>";
+		};
+		E41D69D91E8ACA97002A464F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E41D69DA1E8ACA97002A464F /* GXPhoneBaseNaviVC.swift */,
+				E41D69DB1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift */,
+				E41D69DC1E8ACA97002A464F /* GXPhoneBaseTableVC.swift */,
+				E41D69DD1E8ACA97002A464F /* GXPhoneBaseVC.swift */,
+				E41D69DE1E8ACA97002A464F /* GXPhoneBaseVM.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E41D69DF1E8ACA97002A464F /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				E41D69E01E8ACA97002A464F /* Category */,
+				E41D69E21E8ACA97002A464F /* Home */,
+				E41D69E51E8ACA97002A464F /* Search */,
+				E41D69E71E8ACA97002A464F /* User */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		E41D69E01E8ACA97002A464F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E41D69E11E8ACA97002A464F /* GXPhoneCategoryVC.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E41D69E21E8ACA97002A464F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E41D69E31E8ACA97002A464F /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E41D69E31E8ACA97002A464F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E41D69E41E8ACA97002A464F /* GXPhoneHomeVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		E41D69E51E8ACA97002A464F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E41D69E71E8ACA97002A464F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +429,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41D69AD1E8AC7E1002A464F /* ViewController.swift in Sources */,
+				E41D69EA1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift in Sources */,
+				E41D69F01E8ACA97002A464F /* GXPhoneSearchVC.swift in Sources */,
+				E41D69EE1E8ACA97002A464F /* GXPhoneCategoryVC.swift in Sources */,
+				E41D69E91E8ACA97002A464F /* GXPhoneBaseNaviVC.swift in Sources */,
+				E41D69EC1E8ACA97002A464F /* GXPhoneBaseVC.swift in Sources */,
+				E41D69F11E8ACA97002A464F /* GXPhoneUserVC.swift in Sources */,
+				E41D69EB1E8ACA97002A464F /* GXPhoneBaseTableVC.swift in Sources */,
+				E41D69ED1E8ACA97002A464F /* GXPhoneBaseVM.swift in Sources */,
+				E41D69EF1E8ACA97002A464F /* GXPhoneHomeVC.swift in Sources */,
 				E41D69AB1E8AC7E1002A464F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

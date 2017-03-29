@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GXSwiftCore
 
 class GXPhoneHomeVC: GXPhoneBaseTableVC {
 
@@ -23,7 +24,7 @@ class GXPhoneHomeVC: GXPhoneBaseTableVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.testGXSwiftCoreFramework()
         self.view.backgroundColor = UIColor.red
         self.tableView.frame = CGRect.init(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height - 44)
     }
@@ -52,14 +53,9 @@ class GXPhoneHomeVC: GXPhoneBaseTableVC {
 
     
     
-    func unionTest(num: Int) -> String {
-        if num == 1 {
-            return "11"
-        } else if num == 2 {
-            return "22"
-        } else {
-            return "33"
-        }
+    func testGXSwiftCoreFramework() {
+        let coreTest = GXCoreTest.init()
+        coreTest.coreTestMethod()
     }
     
     

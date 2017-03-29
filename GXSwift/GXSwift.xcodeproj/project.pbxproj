@@ -49,12 +49,12 @@
 		73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GXSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FE3EAC895F3B4703CB11D /* Pods-GXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXSwift.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GXSwift/Pods-GXSwift.release.xcconfig"; sourceTree = "<group>"; };
 		E41D69A71E8AC7E1002A464F /* GXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E41D69AC1E8AC7E1002A464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		E41D69AC1E8AC7E1002A464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		E41D69AF1E8AC7E1002A464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E41D69B11E8AC7E1002A464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E41D69B11E8AC7E1002A464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		E41D69B41E8AC7E1002A464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E41D69B61E8AC7E1002A464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41D69B61E8AC7E1002A464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		E41D69BB1E8AC7E1002A464F /* GXSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D69BF1E8AC7E1002A464F /* GXSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GXSwiftTests.swift; sourceTree = "<group>"; };
 		E41D69C11E8AC7E1002A464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,13 +143,8 @@
 		E41D69A91E8AC7E1002A464F /* GXSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E4C9CB1D1E8C0FE700EC07C0 /* Bundle */,
 				E41D69D81E8ACA97002A464F /* GXPhone */,
-				E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */,
-				E41D69AC1E8AC7E1002A464F /* ViewController.swift */,
-				E41D69AE1E8AC7E1002A464F /* Main.storyboard */,
-				E41D69B11E8AC7E1002A464F /* Assets.xcassets */,
-				E41D69B31E8AC7E1002A464F /* LaunchScreen.storyboard */,
-				E41D69B61E8AC7E1002A464F /* Info.plist */,
 			);
 			path = GXSwift;
 			sourceTree = "<group>";
@@ -175,6 +170,8 @@
 		E41D69D81E8ACA97002A464F /* GXPhone */ = {
 			isa = PBXGroup;
 			children = (
+				E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */,
+				E41D69AC1E8AC7E1002A464F /* ViewController.swift */,
 				E41D69D91E8ACA97002A464F /* Base */,
 				E41D69DF1E8ACA97002A464F /* Business */,
 			);
@@ -196,8 +193,8 @@
 		E41D69DF1E8ACA97002A464F /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				E41D69E01E8ACA97002A464F /* Category */,
 				E41D69E21E8ACA97002A464F /* Home */,
+				E41D69E01E8ACA97002A464F /* Category */,
 				E41D69E51E8ACA97002A464F /* Search */,
 				E41D69E71E8ACA97002A464F /* User */,
 			);
@@ -242,6 +239,17 @@
 				E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		E4C9CB1D1E8C0FE700EC07C0 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				E41D69AE1E8AC7E1002A464F /* Main.storyboard */,
+				E41D69B11E8AC7E1002A464F /* Assets.xcassets */,
+				E41D69B31E8AC7E1002A464F /* LaunchScreen.storyboard */,
+				E41D69B61E8AC7E1002A464F /* Info.plist */,
+			);
+			path = Bundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,6 +492,7 @@
 				E41D69AF1E8AC7E1002A464F /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E41D69B31E8AC7E1002A464F /* LaunchScreen.storyboard */ = {
@@ -492,6 +501,7 @@
 				E41D69B41E8AC7E1002A464F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

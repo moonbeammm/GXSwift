@@ -24,6 +24,7 @@
 		E41D69EF1E8ACA97002A464F /* GXPhoneHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E41E8ACA97002A464F /* GXPhoneHomeVC.swift */; };
 		E41D69F01E8ACA97002A464F /* GXPhoneSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */; };
 		E41D69F11E8ACA97002A464F /* GXPhoneUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */; };
+		E4C9CB171E8C0EC400EC07C0 /* GXSwiftCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C9CB161E8C0EC400EC07C0 /* GXSwiftCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		E41D69E41E8ACA97002A464F /* GXPhoneHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneHomeVC.swift; sourceTree = "<group>"; };
 		E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneSearchVC.swift; sourceTree = "<group>"; };
 		E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneUserVC.swift; sourceTree = "<group>"; };
+		E4C9CB161E8C0EC400EC07C0 /* GXSwiftCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GXSwiftCore.framework; path = "../contrib/GXSwiftCore/GXSwiftCore/build/Debug-iphoneos/GXSwiftCore.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C9CB171E8C0EC400EC07C0 /* GXSwiftCore.framework in Frameworks */,
 				52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +112,7 @@
 		92B4EE8EB2C013D6864C542B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4C9CB161E8C0EC400EC07C0 /* GXSwiftCore.framework */,
 				73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */,
 			);
 			name = Frameworks;

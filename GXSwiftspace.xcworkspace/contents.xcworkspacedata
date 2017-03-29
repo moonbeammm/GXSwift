@@ -5,6 +5,9 @@
       location = "group:GXSwift/GXSwift.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:contrib/GXSwiftCore/GXSwiftCore/GXSwiftCore.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

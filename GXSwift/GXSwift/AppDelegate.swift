@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         print("程序第一次启动!")
-        
+        sleep(2)
         window = UIWindow.init(frame: UIScreen.main.bounds)
         let mainTabBarVC = GXPhoneBaseTabBarVC()
         self.mainNaviVC = GXPhoneBaseNaviVC.init(rootViewController:mainTabBarVC)

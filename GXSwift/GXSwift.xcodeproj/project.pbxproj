@@ -10,9 +10,6 @@
 		52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */; };
 		E41D69AB1E8AC7E1002A464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */; };
 		E41D69AD1E8AC7E1002A464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69AC1E8AC7E1002A464F /* ViewController.swift */; };
-		E41D69B01E8AC7E1002A464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41D69AE1E8AC7E1002A464F /* Main.storyboard */; };
-		E41D69B21E8AC7E1002A464F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41D69B11E8AC7E1002A464F /* Assets.xcassets */; };
-		E41D69B51E8AC7E1002A464F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41D69B31E8AC7E1002A464F /* LaunchScreen.storyboard */; };
 		E41D69C01E8AC7E1002A464F /* GXSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69BF1E8AC7E1002A464F /* GXSwiftTests.swift */; };
 		E41D69CB1E8AC7E1002A464F /* GXSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69CA1E8AC7E1002A464F /* GXSwiftUITests.swift */; };
 		E41D69E91E8ACA97002A464F /* GXPhoneBaseNaviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DA1E8ACA97002A464F /* GXPhoneBaseNaviVC.swift */; };
@@ -24,7 +21,12 @@
 		E41D69EF1E8ACA97002A464F /* GXPhoneHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E41E8ACA97002A464F /* GXPhoneHomeVC.swift */; };
 		E41D69F01E8ACA97002A464F /* GXPhoneSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */; };
 		E41D69F11E8ACA97002A464F /* GXPhoneUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */; };
-		E4C9CB171E8C0EC400EC07C0 /* GXSwiftCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C9CB161E8C0EC400EC07C0 /* GXSwiftCore.framework */; };
+		E4C9CB731E8EA49F00EC07C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C9CB721E8EA49F00EC07C0 /* Assets.xcassets */; };
+		E4C9CB751E8EA4D800EC07C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4C9CB741E8EA4D800EC07C0 /* Info.plist */; };
+		E4C9CB811E8EB58F00EC07C0 /* GXTopContainerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C9CB7F1E8EB58F00EC07C0 /* GXTopContainerView.framework */; };
+		E4C9CB831E8EB6F500EC07C0 /* GXTopContainerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4C9CB7F1E8EB58F00EC07C0 /* GXTopContainerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4C9CB851E8EB6FA00EC07C0 /* GXSwiftCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C9CB7E1E8EB58F00EC07C0 /* GXSwiftCore.framework */; };
+		E4C9CB861E8EB6FA00EC07C0 /* GXSwiftCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4C9CB7E1E8EB58F00EC07C0 /* GXSwiftCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C9CB841E8EB6F500EC07C0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E4C9CB861E8EB6FA00EC07C0 /* GXSwiftCore.framework in Embed Frameworks */,
+				E4C9CB831E8EB6F500EC07C0 /* GXTopContainerView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0F01CB340901A2EA458550BA /* Pods-GXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXSwift.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GXSwift/Pods-GXSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GXSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,10 +68,6 @@
 		E41D69A71E8AC7E1002A464F /* GXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		E41D69AC1E8AC7E1002A464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
-		E41D69AF1E8AC7E1002A464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E41D69B11E8AC7E1002A464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		E41D69B41E8AC7E1002A464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E41D69B61E8AC7E1002A464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		E41D69BB1E8AC7E1002A464F /* GXSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D69BF1E8AC7E1002A464F /* GXSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GXSwiftTests.swift; sourceTree = "<group>"; };
 		E41D69C11E8AC7E1002A464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +84,11 @@
 		E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneSearchVC.swift; sourceTree = "<group>"; };
 		E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneUserVC.swift; sourceTree = "<group>"; };
 		E4C9CB161E8C0EC400EC07C0 /* GXSwiftCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GXSwiftCore.framework; path = "../contrib/GXSwiftCore/GXSwiftCore/build/Debug-iphoneos/GXSwiftCore.framework"; sourceTree = "<group>"; };
+		E4C9CB721E8EA49F00EC07C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = GXSwift/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		E4C9CB741E8EA4D800EC07C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GXSwift/Info.plist; sourceTree = SOURCE_ROOT; };
+		E4C9CB7C1E8EA7D200EC07C0 /* GXTopContainerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GXTopContainerView.framework; path = "../contrib/GXTopContainerView/GXTopContainerView/build/Debug-iphoneos/GXTopContainerView.framework"; sourceTree = "<group>"; };
+		E4C9CB7E1E8EB58F00EC07C0 /* GXSwiftCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GXSwiftCore.framework; path = "../../../Library/Developer/Xcode/DerivedData/GXSwiftspace-dwxporyxkdzxltbgomnohmnasgak/Build/Products/Debug-iphoneos/GXSwiftCore.framework"; sourceTree = "<group>"; };
+		E4C9CB7F1E8EB58F00EC07C0 /* GXTopContainerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GXTopContainerView.framework; path = "../../../Library/Developer/Xcode/DerivedData/GXSwiftspace-dwxporyxkdzxltbgomnohmnasgak/Build/Products/Debug-iphoneos/GXTopContainerView.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C9CB171E8C0EC400EC07C0 /* GXSwiftCore.framework in Frameworks */,
+				E4C9CB811E8EB58F00EC07C0 /* GXTopContainerView.framework in Frameworks */,
+				E4C9CB851E8EB6FA00EC07C0 /* GXSwiftCore.framework in Frameworks */,
 				52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,6 +131,9 @@
 		92B4EE8EB2C013D6864C542B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4C9CB7E1E8EB58F00EC07C0 /* GXSwiftCore.framework */,
+				E4C9CB7F1E8EB58F00EC07C0 /* GXTopContainerView.framework */,
+				E4C9CB7C1E8EA7D200EC07C0 /* GXTopContainerView.framework */,
 				E4C9CB161E8C0EC400EC07C0 /* GXSwiftCore.framework */,
 				73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */,
 			);
@@ -244,10 +266,8 @@
 		E4C9CB1D1E8C0FE700EC07C0 /* Bundle */ = {
 			isa = PBXGroup;
 			children = (
-				E41D69AE1E8AC7E1002A464F /* Main.storyboard */,
-				E41D69B11E8AC7E1002A464F /* Assets.xcassets */,
-				E41D69B31E8AC7E1002A464F /* LaunchScreen.storyboard */,
-				E41D69B61E8AC7E1002A464F /* Info.plist */,
+				E4C9CB741E8EA4D800EC07C0 /* Info.plist */,
+				E4C9CB721E8EA49F00EC07C0 /* Assets.xcassets */,
 			);
 			path = Bundle;
 			sourceTree = "<group>";
@@ -265,6 +285,7 @@
 				E41D69A51E8AC7E1002A464F /* Resources */,
 				BA205D4AEBF18FEE90AC3F58 /* [CP] Embed Pods Frameworks */,
 				23E25B7C1DC0887EC01C41DB /* [CP] Copy Pods Resources */,
+				E4C9CB841E8EB6F500EC07C0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,13 +338,14 @@
 		E41D699F1E8AC7E1002A464F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GX;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = sunguangxin;
 				TargetAttributes = {
 					E41D69A61E8AC7E1002A464F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = T3R82QQDQ5;
+						DevelopmentTeam = VEE3B6HDQ5;
 						ProvisioningStyle = Automatic;
 					};
 					E41D69BA1E8AC7E1002A464F = {
@@ -365,9 +387,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41D69B51E8AC7E1002A464F /* LaunchScreen.storyboard in Resources */,
-				E41D69B21E8AC7E1002A464F /* Assets.xcassets in Resources */,
-				E41D69B01E8AC7E1002A464F /* Main.storyboard in Resources */,
+				E4C9CB751E8EA4D800EC07C0 /* Info.plist in Resources */,
+				E4C9CB731E8EA49F00EC07C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,27 +506,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		E41D69AE1E8AC7E1002A464F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E41D69AF1E8AC7E1002A464F /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		E41D69B31E8AC7E1002A464F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E41D69B41E8AC7E1002A464F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		E41D69CD1E8AC7E1002A464F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -603,11 +603,12 @@
 			baseConfigurationReference = 0F01CB340901A2EA458550BA /* Pods-GXSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T3R82QQDQ5;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
 				INFOPLIST_FILE = GXSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Sgx.GXSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = Sgxx.GXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -618,11 +619,12 @@
 			baseConfigurationReference = CB9FE3EAC895F3B4703CB11D /* Pods-GXSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T3R82QQDQ5;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
 				INFOPLIST_FILE = GXSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Sgx.GXSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = Sgxx.GXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

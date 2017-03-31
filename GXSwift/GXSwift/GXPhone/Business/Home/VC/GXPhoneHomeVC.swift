@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import GXTopContainerView
 
 class GXPhoneHomeVC: GXPhoneBaseVC {
 
+    // 懒加载
+//    lazy var topContainer: GXTopContainerView = GXTopContainerView()
+    
     init() {
         super.init(nibName: nil, bundle: nil)
         self.tabBarItem.image = UIImage.init(named: "home_home_tab")
@@ -24,6 +28,12 @@ class GXPhoneHomeVC: GXPhoneBaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.red
+        
+//        let topContainer = GXTopContainerView.initWithParentVC(self)
+//        topContainer.backgroundColor = UIColor.blue
+//        self.view.addSubview(topContainer)
+        
+        
     }
 
     override func viewWillAppear(_ animated: Bool) {

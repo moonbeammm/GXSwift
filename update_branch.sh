@@ -12,8 +12,9 @@ clone () {
 	git checkout $2
 	#退回到GXShell目录...
 	cd ..
-	echo '--------------->>>>>'
-	echo '<<<<<---------------'
+    cd ..
+	echo '------------------------------------------->>>>>'
+	echo "<<<<<---------------pull $1 repository finished!"
 }
 
 clone $1 $2

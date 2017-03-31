@@ -10,7 +10,11 @@ echo 'please see README.md'
 echo '--------------->>>>>'
 echo '<<<<<---------------'
 
+
+
 source update_branch.sh 'GXSwiftCore' 'develop'
+source update_branch.sh 'GXTopContainerView' 'develop'
+
 
 echo '拉取三方库!'
 

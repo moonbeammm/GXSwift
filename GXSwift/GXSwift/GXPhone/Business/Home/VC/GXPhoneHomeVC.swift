@@ -7,9 +7,8 @@
 //
 
 import UIKit
-import GXSwiftCore
 
-class GXPhoneHomeVC: GXPhoneBaseTableVC {
+class GXPhoneHomeVC: GXPhoneBaseVC {
 
     init() {
         super.init(nibName: nil, bundle: nil)
@@ -24,39 +23,15 @@ class GXPhoneHomeVC: GXPhoneBaseTableVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.testGXSwiftCoreFramework()
         self.view.backgroundColor = UIColor.red
-        self.tableView.frame = CGRect.init(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height - 44)
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 30
-    }
 
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
-    }
-
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: NSStringFromClass(UITableViewCell.self), for: indexPath)
-        cell.textLabel?.text = "敬请期待!"
-        cell.selectionStyle = UITableViewCellSelectionStyle.none
-        cell.backgroundColor = UIColor.gray
-        return cell
-    }
-
-    
-    
-    func testGXSwiftCoreFramework() {
-        let coreTest = GXCoreTest.init()
-        coreTest.coreTestMethod()
-    }
     
     
     

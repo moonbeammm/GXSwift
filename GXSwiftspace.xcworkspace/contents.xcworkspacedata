@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:contrib/GXRefresh/GXRefresh/GXRefresh.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:GXSwift/GXSwift.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:contrib/GXTopContainerView/GXTopContainerView/GXTopContainerView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:contrib/GXRefresh/GXRefresh/GXRefresh.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:contrib/GXNetworking/GXNetworking/GXNetworking.xcodeproj">

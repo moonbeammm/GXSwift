@@ -11,7 +11,7 @@ echo '--------------->>>>>'
 echo '<<<<<---------------'
 
 
-source update_branch.sh 'GXNetworking' 'master'
+source update_branch.sh 'GXNetworking' 'develop'
 source update_branch.sh 'GXTopContainerView' 'develop'
 
 

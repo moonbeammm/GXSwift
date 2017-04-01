@@ -13,6 +13,7 @@ echo '<<<<<---------------'
 
 source update_branch.sh 'GXNetworking' 'develop'
 source update_branch.sh 'GXTopContainerView' 'develop'
+source update_branch.sh 'GXRefresh' 'develop'
 
 
 echo '拉取三方库!'

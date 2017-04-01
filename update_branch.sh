@@ -4,7 +4,7 @@ clone () {
 	if [ ! -x "contrib/$1" ]; then
 		echo "初次拉取$1仓库..."
 		echo "* run command: git clone $1..."
-		git clone git@github.com:moonbeammm/$1.git contrib/$1
+		git clone https://github.com/moonbeammm/$1.git contrib/$1
 	fi
 	echo "* update $1 with branch/$2..."
 	cd contrib/$1

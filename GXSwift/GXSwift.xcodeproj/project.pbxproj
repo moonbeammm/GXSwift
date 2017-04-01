@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */; };
-		B744AD751E8F5A8D0082E5E5 /* GXSwiftCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B764D0B81E8F5A2D00026E30 /* GXSwiftCore.framework */; };
-		B744AD761E8F5A8D0082E5E5 /* GXSwiftCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B764D0B81E8F5A2D00026E30 /* GXSwiftCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B744AD791E8F5A8D0082E5E5 /* GXTopContainerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */; };
 		B744AD7A1E8F5A8D0082E5E5 /* GXTopContainerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E41D69AB1E8AC7E1002A464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */; };
@@ -30,13 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B744AD771E8F5A8D0082E5E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B764D0B21E8F5A2D00026E30 /* GXSwiftCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E4C9CAFB1E8C0E7500EC07C0;
-			remoteInfo = GXSwiftCore;
-		};
 		B744AD7B1E8F5A8D0082E5E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */;
@@ -72,13 +63,6 @@
 			remoteGlobalIDString = E4C9CB051E8C0E7500EC07C0;
 			remoteInfo = GXSwiftCoreTests;
 		};
-		B764D0BB1E8F5A4300026E30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B764D0B21E8F5A2D00026E30 /* GXSwiftCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E4C9CAFB1E8C0E7500EC07C0;
-			remoteInfo = GXSwiftCore;
-		};
 		B764D0BD1E8F5A4300026E30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */;
@@ -110,7 +94,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B744AD7A1E8F5A8D0082E5E5 /* GXTopContainerView.framework in Embed Frameworks */,
-				B744AD761E8F5A8D0082E5E5 /* GXSwiftCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +133,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B744AD751E8F5A8D0082E5E5 /* GXSwiftCore.framework in Frameworks */,
 				52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */,
 				B744AD791E8F5A8D0082E5E5 /* GXTopContainerView.framework in Frameworks */,
 			);
@@ -360,9 +342,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B764D0BC1E8F5A4300026E30 /* PBXTargetDependency */,
 				B764D0BE1E8F5A4300026E30 /* PBXTargetDependency */,
-				B744AD781E8F5A8D0082E5E5 /* PBXTargetDependency */,
 				B744AD7C1E8F5A8D0082E5E5 /* PBXTargetDependency */,
 			);
 			name = GXSwift;
@@ -609,20 +589,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B744AD781E8F5A8D0082E5E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GXSwiftCore;
-			targetProxy = B744AD771E8F5A8D0082E5E5 /* PBXContainerItemProxy */;
-		};
 		B744AD7C1E8F5A8D0082E5E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GXTopContainerView;
 			targetProxy = B744AD7B1E8F5A8D0082E5E5 /* PBXContainerItemProxy */;
-		};
-		B764D0BC1E8F5A4300026E30 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GXSwiftCore;
-			targetProxy = B764D0BB1E8F5A4300026E30 /* PBXContainerItemProxy */;
 		};
 		B764D0BE1E8F5A4300026E30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

@@ -8,7 +8,7 @@
       location = "group:contrib/GXTopContainerView/GXTopContainerView/GXTopContainerView.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:contrib/GXSwiftCore/GXSwiftCore/GXSwiftCore.xcodeproj">
+      location = "group:contrib/GXNetworking/GXNetworking/GXNetworking.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

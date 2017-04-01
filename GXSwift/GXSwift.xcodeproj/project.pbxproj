@@ -10,6 +10,8 @@
 		52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */; };
 		B744AD791E8F5A8D0082E5E5 /* GXTopContainerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */; };
 		B744AD7A1E8F5A8D0082E5E5 /* GXTopContainerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B744ADF31E8F7B570082E5E5 /* GXNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B744ADED1E8F7B3D0082E5E5 /* GXNetworking.framework */; };
+		B744ADF41E8F7B570082E5E5 /* GXNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B744ADED1E8F7B3D0082E5E5 /* GXNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E41D69AB1E8AC7E1002A464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */; };
 		E41D69AD1E8AC7E1002A464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69AC1E8AC7E1002A464F /* ViewController.swift */; };
 		E41D69C01E8AC7E1002A464F /* GXSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69BF1E8AC7E1002A464F /* GXSwiftTests.swift */; };
@@ -35,6 +37,34 @@
 			remoteGlobalIDString = E4C9CB551E8EA09400EC07C0;
 			remoteInfo = GXTopContainerView;
 		};
+		B744ADEC1E8F7B3D0082E5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B744ADC21E8F78D80082E5E5;
+			remoteInfo = GXNetworking;
+		};
+		B744ADEE1E8F7B3D0082E5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B744ADCB1E8F78D80082E5E5;
+			remoteInfo = GXNetworkingTests;
+		};
+		B744ADF11E8F7B4E0082E5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B744ADC11E8F78D80082E5E5;
+			remoteInfo = GXNetworking;
+		};
+		B744ADF51E8F7B570082E5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B744ADC11E8F78D80082E5E5;
+			remoteInfo = GXNetworking;
+		};
 		B764D0AE1E8F5A2800026E30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */;
@@ -48,20 +78,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = E4C9CB5F1E8EA09400EC07C0;
 			remoteInfo = GXTopContainerViewTests;
-		};
-		B764D0B71E8F5A2D00026E30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B764D0B21E8F5A2D00026E30 /* GXSwiftCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4C9CAFC1E8C0E7500EC07C0;
-			remoteInfo = GXSwiftCore;
-		};
-		B764D0B91E8F5A2D00026E30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B764D0B21E8F5A2D00026E30 /* GXSwiftCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4C9CB051E8C0E7500EC07C0;
-			remoteInfo = GXSwiftCoreTests;
 		};
 		B764D0BD1E8F5A4300026E30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -94,6 +110,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B744AD7A1E8F5A8D0082E5E5 /* GXTopContainerView.framework in Embed Frameworks */,
+				B744ADF41E8F7B570082E5E5 /* GXNetworking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,8 +120,8 @@
 /* Begin PBXFileReference section */
 		0F01CB340901A2EA458550BA /* Pods-GXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXSwift.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GXSwift/Pods-GXSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GXSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXNetworking.xcodeproj; path = ../contrib/GXNetworking/GXNetworking/GXNetworking.xcodeproj; sourceTree = "<group>"; };
 		B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXTopContainerView.xcodeproj; path = ../contrib/GXTopContainerView/GXTopContainerView/GXTopContainerView.xcodeproj; sourceTree = "<group>"; };
-		B764D0B21E8F5A2D00026E30 /* GXSwiftCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXSwiftCore.xcodeproj; path = ../contrib/GXSwiftCore/GXSwiftCore/GXSwiftCore.xcodeproj; sourceTree = "<group>"; };
 		CB9FE3EAC895F3B4703CB11D /* Pods-GXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXSwift.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GXSwift/Pods-GXSwift.release.xcconfig"; sourceTree = "<group>"; };
 		E41D69A71E8AC7E1002A464F /* GXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,8 +150,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */,
+				B744ADF31E8F7B570082E5E5 /* GXNetworking.framework in Frameworks */,
 				B744AD791E8F5A8D0082E5E5 /* GXTopContainerView.framework in Frameworks */,
+				52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,11 +185,20 @@
 		92B4EE8EB2C013D6864C542B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B764D0B21E8F5A2D00026E30 /* GXSwiftCore.xcodeproj */,
+				B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */,
 				B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */,
 				73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B744ADE81E8F7B3D0082E5E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B744ADED1E8F7B3D0082E5E5 /* GXNetworking.framework */,
+				B744ADEF1E8F7B3D0082E5E5 /* GXNetworkingTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B764D0AA1E8F5A2800026E30 /* Products */ = {
@@ -179,15 +206,6 @@
 			children = (
 				B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */,
 				B764D0B11E8F5A2800026E30 /* GXTopContainerViewTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B764D0B31E8F5A2D00026E30 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B764D0B81E8F5A2D00026E30 /* GXSwiftCore.framework */,
-				B764D0BA1E8F5A2D00026E30 /* GXSwiftCoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,8 +360,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				B744ADF21E8F7B4E0082E5E5 /* PBXTargetDependency */,
 				B764D0BE1E8F5A4300026E30 /* PBXTargetDependency */,
 				B744AD7C1E8F5A8D0082E5E5 /* PBXTargetDependency */,
+				B744ADF61E8F7B570082E5E5 /* PBXTargetDependency */,
 			);
 			name = GXSwift;
 			productName = GXSwift;
@@ -429,8 +449,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B764D0B31E8F5A2D00026E30 /* Products */;
-					ProjectRef = B764D0B21E8F5A2D00026E30 /* GXSwiftCore.xcodeproj */;
+					ProductGroup = B744ADE81E8F7B3D0082E5E5 /* Products */;
+					ProjectRef = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
 				},
 				{
 					ProductGroup = B764D0AA1E8F5A2800026E30 /* Products */;
@@ -447,6 +467,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		B744ADED1E8F7B3D0082E5E5 /* GXNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GXNetworking.framework;
+			remoteRef = B744ADEC1E8F7B3D0082E5E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B744ADEF1E8F7B3D0082E5E5 /* GXNetworkingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GXNetworkingTests.xctest;
+			remoteRef = B744ADEE1E8F7B3D0082E5E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -459,20 +493,6 @@
 			fileType = wrapper.cfbundle;
 			path = GXTopContainerViewTests.xctest;
 			remoteRef = B764D0B01E8F5A2800026E30 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B764D0B81E8F5A2D00026E30 /* GXSwiftCore.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GXSwiftCore.framework;
-			remoteRef = B764D0B71E8F5A2D00026E30 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B764D0BA1E8F5A2D00026E30 /* GXSwiftCoreTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = GXSwiftCoreTests.xctest;
-			remoteRef = B764D0B91E8F5A2D00026E30 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -593,6 +613,16 @@
 			isa = PBXTargetDependency;
 			name = GXTopContainerView;
 			targetProxy = B744AD7B1E8F5A8D0082E5E5 /* PBXContainerItemProxy */;
+		};
+		B744ADF21E8F7B4E0082E5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXNetworking;
+			targetProxy = B744ADF11E8F7B4E0082E5E5 /* PBXContainerItemProxy */;
+		};
+		B744ADF61E8F7B570082E5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXNetworking;
+			targetProxy = B744ADF51E8F7B570082E5E5 /* PBXContainerItemProxy */;
 		};
 		B764D0BE1E8F5A4300026E30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

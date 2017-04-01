@@ -8,6 +8,7 @@
 
 import UIKit
 import GXSwiftCore
+import GXNetworking
 
 class GXPhoneSearchVC: GXPhoneBaseTableVC {
 
@@ -27,6 +28,9 @@ class GXPhoneSearchVC: GXPhoneBaseTableVC {
         
         // 测试调用动态库方法
         self.testGXSwiftCoreFramework()
+        
+        // 测试调用网络请求库方法
+        self.testGXNetworkingFramework("www.baidu.com")
 
         self.view.backgroundColor = UIColor.gray
         // Do any additional setup after loading the view.
@@ -55,6 +59,11 @@ class GXPhoneSearchVC: GXPhoneBaseTableVC {
     func testGXSwiftCoreFramework() {
         let coreTest = GXCoreTest.init()
         coreTest.coreTestMethod()
+    }
+    
+    func testGXNetworkingFramework(_ url: String) {
+        let networking = GXNetworking()
+        networking.getDataWithUrl(url)
     }
 
 }

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 被废弃了.改用python来拉取代码.
+
 clone () {
 	if [ ! -x "contrib/$1" ]; then
 		echo "初次拉取$1仓库..."

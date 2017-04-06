@@ -16,7 +16,6 @@ CONTRIB_ROOT="contrib"
 def do_shell(COMMAND):
 	print colored('* run command: ' + COMMAND, 'blue')
 	lines = subprocess.check_output(shlex.split(COMMAND)).split('\n')
-	print '不知道是啥: lines : %s' % (lines)
 
 # 拉取最新的shell
 def do_repo_sync_shell():
@@ -32,7 +31,7 @@ def do_repo_sync_shell():
 def do_repo_sync_branch(REPO_NAME, REPO_BRANCH):
 	assert REPO_BRANCH
 	print '<---------------'
-	print colored('* update %s with branch %s' % (REPO_NAME, REPO_BRANCH), 'green')
+	print colored('* update %s with branch %s' % (REPO_NAME, REPO_BRANCH), 'yellow')
 	do_shell('git fetch origin')
 	do_shell('git checkout %s' % (REPO_BRANCH))
 	do_shell('git pull origin %s' % (REPO_BRANCH))
@@ -46,6 +45,7 @@ def do_check_sync(REPO_NAME, REPO_URL, REPO_EXPECT_TYPE, REPO_EXPECT_VALUE):
 	assert REPO_EXPECT_TYPE
 	assert REPO_EXPECT_VALUE
 	print '调用 do_check_syn方法'
+	print colored('调用 do_check_syn方法', 'yellow')
 	if not os.path.exists(REPO_NAME):
 		do_shell('git clone %s %s' % (REPO_URL, REPO_NAME))
 	currdir = os.getcwd()
@@ -60,12 +60,12 @@ def do_sync():
 	do_repo_sync_shell()
 
 	currdir = os.getcwd()
-	print '当前路径: %s' % currdir
+	print colored('当前路径: %s' % currdir, 'white')
 
 	if os.path.exists('dependencies'):
 		fd = open('dependencies')
 		raws = fd.readlines()
-		print 'dependencies里的内容: %s' % (raws) 
+		print colored('dependencies里的内容: %s' % (raws), 'white')
 		fd.close()
 
 		# 如果没有contrib文件夹.就创建一个.
@@ -75,12 +75,11 @@ def do_sync():
 		os.chdir(CONTRIB_ROOT)
 		for i in xrange(len(raws)):
 			raw = raws[i]
-			print 'dependencies里的内容的第%s行: %s' % (i,raw) 
-
+			print colored('dependencies里的内容的第%s行: %s' % (i,raw), 'cyan')
 			# 以空格为分隔符.分割字符串.
 			items = raw.split(' ')
 			for i in xrange(len(items)):
-				print '分割后的字符串:%s' % (items[i])
+				print colored('分割后的字符串:%s' % (items[i]), 'red')
 
 			repo, url, eType, branchType = raw.split(' ')
 			do_check_sync(repo, url, eType, branchType)

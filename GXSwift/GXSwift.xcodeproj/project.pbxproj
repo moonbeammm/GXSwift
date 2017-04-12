@@ -26,7 +26,6 @@
 		E41D69F01E8ACA97002A464F /* GXPhoneSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */; };
 		E41D69F11E8ACA97002A464F /* GXPhoneUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */; };
 		E4C9CB731E8EA49F00EC07C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C9CB721E8EA49F00EC07C0 /* Assets.xcassets */; };
-		E4C9CB751E8EA4D800EC07C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4C9CB741E8EA4D800EC07C0 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -502,7 +501,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C9CB751E8EA4D800EC07C0 /* Info.plist in Resources */,
 				E4C9CB731E8EA49F00EC07C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -52,6 +52,11 @@ playground.xcworkspace
 Pods/
 Podfile.lock
 *.pyc
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
 
 # Carthage
 #

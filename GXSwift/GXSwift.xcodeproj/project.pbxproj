@@ -8,14 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */; };
-		B744AD791E8F5A8D0082E5E5 /* GXTopContainerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */; };
-		B744AD7A1E8F5A8D0082E5E5 /* GXTopContainerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B744ADF31E8F7B570082E5E5 /* GXNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B744ADED1E8F7B3D0082E5E5 /* GXNetworking.framework */; };
-		B744ADF41E8F7B570082E5E5 /* GXNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B744ADED1E8F7B3D0082E5E5 /* GXNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E41D69AB1E8AC7E1002A464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */; };
 		E41D69AD1E8AC7E1002A464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69AC1E8AC7E1002A464F /* ViewController.swift */; };
 		E41D69C01E8AC7E1002A464F /* GXSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69BF1E8AC7E1002A464F /* GXSwiftTests.swift */; };
-		E41D69CB1E8AC7E1002A464F /* GXSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69CA1E8AC7E1002A464F /* GXSwiftUITests.swift */; };
 		E41D69E91E8ACA97002A464F /* GXPhoneBaseNaviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DA1E8ACA97002A464F /* GXPhoneBaseNaviVC.swift */; };
 		E41D69EA1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DB1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift */; };
 		E41D69EB1E8ACA97002A464F /* GXPhoneBaseTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DC1E8ACA97002A464F /* GXPhoneBaseTableVC.swift */; };
@@ -29,70 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B744AD7B1E8F5A8D0082E5E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E4C9CB551E8EA09400EC07C0;
-			remoteInfo = GXTopContainerView;
-		};
-		B744ADEC1E8F7B3D0082E5E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B744ADC21E8F78D80082E5E5;
-			remoteInfo = GXNetworking;
-		};
-		B744ADEE1E8F7B3D0082E5E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B744ADCB1E8F78D80082E5E5;
-			remoteInfo = GXNetworkingTests;
-		};
-		B744ADF11E8F7B4E0082E5E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B744ADC11E8F78D80082E5E5;
-			remoteInfo = GXNetworking;
-		};
-		B744ADF51E8F7B570082E5E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B744ADC11E8F78D80082E5E5;
-			remoteInfo = GXNetworking;
-		};
-		B764D0AE1E8F5A2800026E30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4C9CB561E8EA09400EC07C0;
-			remoteInfo = GXTopContainerView;
-		};
-		B764D0B01E8F5A2800026E30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4C9CB5F1E8EA09400EC07C0;
-			remoteInfo = GXTopContainerViewTests;
-		};
-		B764D0BD1E8F5A4300026E30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E4C9CB551E8EA09400EC07C0;
-			remoteInfo = GXTopContainerView;
-		};
 		E41D69BC1E8AC7E1002A464F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E41D699F1E8AC7E1002A464F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E41D69A61E8AC7E1002A464F;
-			remoteInfo = GXSwift;
-		};
-		E41D69C71E8AC7E1002A464F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E41D699F1E8AC7E1002A464F /* Project object */;
 			proxyType = 1;
@@ -108,8 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B744AD7A1E8F5A8D0082E5E5 /* GXTopContainerView.framework in Embed Frameworks */,
-				B744ADF41E8F7B570082E5E5 /* GXNetworking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,8 +49,6 @@
 /* Begin PBXFileReference section */
 		0F01CB340901A2EA458550BA /* Pods-GXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXSwift.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GXSwift/Pods-GXSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GXSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXNetworking.xcodeproj; path = ../contrib/GXNetworking/GXNetworking/GXNetworking.xcodeproj; sourceTree = "<group>"; };
-		B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXTopContainerView.xcodeproj; path = ../contrib/GXTopContainerView/GXTopContainerView/GXTopContainerView.xcodeproj; sourceTree = "<group>"; };
 		CB9FE3EAC895F3B4703CB11D /* Pods-GXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXSwift.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GXSwift/Pods-GXSwift.release.xcconfig"; sourceTree = "<group>"; };
 		E41D69A71E8AC7E1002A464F /* GXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,9 +56,6 @@
 		E41D69BB1E8AC7E1002A464F /* GXSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D69BF1E8AC7E1002A464F /* GXSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GXSwiftTests.swift; sourceTree = "<group>"; };
 		E41D69C11E8AC7E1002A464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E41D69C61E8AC7E1002A464F /* GXSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41D69CA1E8AC7E1002A464F /* GXSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GXSwiftUITests.swift; sourceTree = "<group>"; };
-		E41D69CC1E8AC7E1002A464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E41D69DA1E8ACA97002A464F /* GXPhoneBaseNaviVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneBaseNaviVC.swift; sourceTree = "<group>"; };
 		E41D69DB1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneBaseTabBarVC.swift; sourceTree = "<group>"; };
 		E41D69DC1E8ACA97002A464F /* GXPhoneBaseTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneBaseTableVC.swift; sourceTree = "<group>"; };
@@ -149,20 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B744ADF31E8F7B570082E5E5 /* GXNetworking.framework in Frameworks */,
-				B744AD791E8F5A8D0082E5E5 /* GXTopContainerView.framework in Frameworks */,
 				52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E41D69B81E8AC7E1002A464F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E41D69C31E8AC7E1002A464F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,29 +100,9 @@
 		92B4EE8EB2C013D6864C542B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */,
-				B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */,
 				73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B744ADE81E8F7B3D0082E5E5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B744ADED1E8F7B3D0082E5E5 /* GXNetworking.framework */,
-				B744ADEF1E8F7B3D0082E5E5 /* GXNetworkingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B764D0AA1E8F5A2800026E30 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */,
-				B764D0B11E8F5A2800026E30 /* GXTopContainerViewTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E41D699E1E8AC7E1002A464F = {
@@ -214,7 +110,6 @@
 			children = (
 				E41D69A91E8AC7E1002A464F /* GXSwift */,
 				E41D69BE1E8AC7E1002A464F /* GXSwiftTests */,
-				E41D69C91E8AC7E1002A464F /* GXSwiftUITests */,
 				E41D69A81E8AC7E1002A464F /* Products */,
 				881F7A96DE17F71F4D9C0A33 /* Pods */,
 				92B4EE8EB2C013D6864C542B /* Frameworks */,
@@ -226,7 +121,6 @@
 			children = (
 				E41D69A71E8AC7E1002A464F /* GXSwift.app */,
 				E41D69BB1E8AC7E1002A464F /* GXSwiftTests.xctest */,
-				E41D69C61E8AC7E1002A464F /* GXSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,15 +141,6 @@
 				E41D69C11E8AC7E1002A464F /* Info.plist */,
 			);
 			path = GXSwiftTests;
-			sourceTree = "<group>";
-		};
-		E41D69C91E8AC7E1002A464F /* GXSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E41D69CA1E8AC7E1002A464F /* GXSwiftUITests.swift */,
-				E41D69CC1E8AC7E1002A464F /* Info.plist */,
-			);
-			path = GXSwiftUITests;
 			sourceTree = "<group>";
 		};
 		E41D69D81E8ACA97002A464F /* GXPhone */ = {
@@ -359,10 +244,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B744ADF21E8F7B4E0082E5E5 /* PBXTargetDependency */,
-				B764D0BE1E8F5A4300026E30 /* PBXTargetDependency */,
-				B744AD7C1E8F5A8D0082E5E5 /* PBXTargetDependency */,
-				B744ADF61E8F7B570082E5E5 /* PBXTargetDependency */,
 			);
 			name = GXSwift;
 			productName = GXSwift;
@@ -387,24 +268,6 @@
 			productReference = E41D69BB1E8AC7E1002A464F /* GXSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E41D69C51E8AC7E1002A464F /* GXSwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E41D69D51E8AC7E1002A464F /* Build configuration list for PBXNativeTarget "GXSwiftUITests" */;
-			buildPhases = (
-				E41D69C21E8AC7E1002A464F /* Sources */,
-				E41D69C31E8AC7E1002A464F /* Frameworks */,
-				E41D69C41E8AC7E1002A464F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E41D69C81E8AC7E1002A464F /* PBXTargetDependency */,
-			);
-			name = GXSwiftUITests;
-			productName = GXSwiftUITests;
-			productReference = E41D69C61E8AC7E1002A464F /* GXSwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -413,23 +276,19 @@
 			attributes = {
 				CLASSPREFIX = GX;
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = sunguangxin;
 				TargetAttributes = {
 					E41D69A61E8AC7E1002A464F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = VEE3B6HDQ5;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					E41D69BA1E8AC7E1002A464F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = T3R82QQDQ5;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E41D69A61E8AC7E1002A464F;
-					};
-					E41D69C51E8AC7E1002A464F = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = T3R82QQDQ5;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E41D69A61E8AC7E1002A464F;
 					};
@@ -446,55 +305,13 @@
 			mainGroup = E41D699E1E8AC7E1002A464F;
 			productRefGroup = E41D69A81E8AC7E1002A464F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B744ADE81E8F7B3D0082E5E5 /* Products */;
-					ProjectRef = B744ADE71E8F7B3D0082E5E5 /* GXNetworking.xcodeproj */;
-				},
-				{
-					ProductGroup = B764D0AA1E8F5A2800026E30 /* Products */;
-					ProjectRef = B764D0A91E8F5A2800026E30 /* GXTopContainerView.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E41D69A61E8AC7E1002A464F /* GXSwift */,
 				E41D69BA1E8AC7E1002A464F /* GXSwiftTests */,
-				E41D69C51E8AC7E1002A464F /* GXSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		B744ADED1E8F7B3D0082E5E5 /* GXNetworking.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GXNetworking.framework;
-			remoteRef = B744ADEC1E8F7B3D0082E5E5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B744ADEF1E8F7B3D0082E5E5 /* GXNetworkingTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = GXNetworkingTests.xctest;
-			remoteRef = B744ADEE1E8F7B3D0082E5E5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B764D0AF1E8F5A2800026E30 /* GXTopContainerView.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GXTopContainerView.framework;
-			remoteRef = B764D0AE1E8F5A2800026E30 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B764D0B11E8F5A2800026E30 /* GXTopContainerViewTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = GXTopContainerViewTests.xctest;
-			remoteRef = B764D0B01E8F5A2800026E30 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E41D69A51E8AC7E1002A464F /* Resources */ = {
@@ -506,13 +323,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E41D69B91E8AC7E1002A464F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E41D69C41E8AC7E1002A464F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -558,13 +368,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GXSwift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -596,46 +409,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E41D69C21E8AC7E1002A464F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E41D69CB1E8AC7E1002A464F /* GXSwiftUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B744AD7C1E8F5A8D0082E5E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GXTopContainerView;
-			targetProxy = B744AD7B1E8F5A8D0082E5E5 /* PBXContainerItemProxy */;
-		};
-		B744ADF21E8F7B4E0082E5E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GXNetworking;
-			targetProxy = B744ADF11E8F7B4E0082E5E5 /* PBXContainerItemProxy */;
-		};
-		B744ADF61E8F7B570082E5E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GXNetworking;
-			targetProxy = B744ADF51E8F7B570082E5E5 /* PBXContainerItemProxy */;
-		};
-		B764D0BE1E8F5A4300026E30 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GXTopContainerView;
-			targetProxy = B764D0BD1E8F5A4300026E30 /* PBXContainerItemProxy */;
-		};
 		E41D69BD1E8AC7E1002A464F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E41D69A61E8AC7E1002A464F /* GXSwift */;
 			targetProxy = E41D69BC1E8AC7E1002A464F /* PBXContainerItemProxy */;
-		};
-		E41D69C81E8AC7E1002A464F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E41D69A61E8AC7E1002A464F /* GXSwift */;
-			targetProxy = E41D69C71E8AC7E1002A464F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -649,7 +429,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -657,7 +439,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -698,7 +484,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -706,7 +494,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -744,7 +536,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sgxx.GXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -761,7 +554,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sgxx.GXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -775,7 +569,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sgx.GXSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GXSwift.app/GXSwift";
 			};
 			name = Debug;
@@ -790,36 +585,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sgx.GXSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GXSwift.app/GXSwift";
-			};
-			name = Release;
-		};
-		E41D69D61E8AC7E1002A464F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = T3R82QQDQ5;
-				INFOPLIST_FILE = GXSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Sgx.GXSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = GXSwift;
-			};
-			name = Debug;
-		};
-		E41D69D71E8AC7E1002A464F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = T3R82QQDQ5;
-				INFOPLIST_FILE = GXSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Sgx.GXSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = GXSwift;
 			};
 			name = Release;
 		};
@@ -849,15 +617,6 @@
 			buildConfigurations = (
 				E41D69D31E8AC7E1002A464F /* Debug */,
 				E41D69D41E8AC7E1002A464F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E41D69D51E8AC7E1002A464F /* Build configuration list for PBXNativeTarget "GXSwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E41D69D61E8AC7E1002A464F /* Debug */,
-				E41D69D71E8AC7E1002A464F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

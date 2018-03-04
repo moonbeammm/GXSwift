@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GXNetworking
 
 class GXPhoneSearchVC: GXPhoneBaseTableVC {
 
@@ -27,8 +26,6 @@ class GXPhoneSearchVC: GXPhoneBaseTableVC {
         
 
         // 测试调用网络请求库方法
-        self.testGXNetworkingFramework("www.baidu.com")
-
         self.view.backgroundColor = UIColor.gray
         // Do any additional setup after loading the view.
         self.tableView.frame = CGRect.init(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height - 44)
@@ -51,12 +48,5 @@ class GXPhoneSearchVC: GXPhoneBaseTableVC {
         return cell
     }
     
-    
-    
-    
-    func testGXNetworkingFramework(_ url: String) {
-        let networking = GXNetworking()
-        networking.getDataWithUrl(url)
-    }
 
 }

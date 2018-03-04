@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */; };
 		E41D69AB1E8AC7E1002A464F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */; };
-		E41D69AD1E8AC7E1002A464F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69AC1E8AC7E1002A464F /* ViewController.swift */; };
 		E41D69C01E8AC7E1002A464F /* GXSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69BF1E8AC7E1002A464F /* GXSwiftTests.swift */; };
 		E41D69E91E8ACA97002A464F /* GXPhoneBaseNaviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DA1E8ACA97002A464F /* GXPhoneBaseNaviVC.swift */; };
 		E41D69EA1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69DB1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift */; };
@@ -20,6 +19,8 @@
 		E41D69EF1E8ACA97002A464F /* GXPhoneHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E41E8ACA97002A464F /* GXPhoneHomeVC.swift */; };
 		E41D69F01E8ACA97002A464F /* GXPhoneSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */; };
 		E41D69F11E8ACA97002A464F /* GXPhoneUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */; };
+		E4871D03204C3D4D00B77A3A /* GXRuler_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4871D00204C3D2100B77A3A /* GXRuler_Swift.framework */; };
+		E4871D04204C3D4D00B77A3A /* GXRuler_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4871D00204C3D2100B77A3A /* GXRuler_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E4C9CB731E8EA49F00EC07C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C9CB721E8EA49F00EC07C0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,27 @@
 			remoteGlobalIDString = E41D69A61E8AC7E1002A464F;
 			remoteInfo = GXSwift;
 		};
+		E4871CFF204C3D2100B77A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4871CFA204C3D2100B77A3A /* GXRuler-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4871CE0204C3CC100B77A3A;
+			remoteInfo = "GXRuler-Swift";
+		};
+		E4871D01204C3D2100B77A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4871CFA204C3D2100B77A3A /* GXRuler-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4871CE9204C3CC100B77A3A;
+			remoteInfo = "GXRuler-SwiftTests";
+		};
+		E4871D05204C3D4D00B77A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4871CFA204C3D2100B77A3A /* GXRuler-Swift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4871CDF204C3CC100B77A3A;
+			remoteInfo = "GXRuler-Swift";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +62,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				E4871D04204C3D4D00B77A3A /* GXRuler_Swift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,8 +74,7 @@
 		73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GXSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FE3EAC895F3B4703CB11D /* Pods-GXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXSwift.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GXSwift/Pods-GXSwift.release.xcconfig"; sourceTree = "<group>"; };
 		E41D69A71E8AC7E1002A464F /* GXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		E41D69AC1E8AC7E1002A464F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E41D69BB1E8AC7E1002A464F /* GXSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D69BF1E8AC7E1002A464F /* GXSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GXSwiftTests.swift; sourceTree = "<group>"; };
 		E41D69C11E8AC7E1002A464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +87,7 @@
 		E41D69E41E8ACA97002A464F /* GXPhoneHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneHomeVC.swift; sourceTree = "<group>"; };
 		E41D69E61E8ACA97002A464F /* GXPhoneSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneSearchVC.swift; sourceTree = "<group>"; };
 		E41D69E81E8ACA97002A464F /* GXPhoneUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXPhoneUserVC.swift; sourceTree = "<group>"; };
+		E4871CFA204C3D2100B77A3A /* GXRuler-Swift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "GXRuler-Swift.xcodeproj"; path = "../contrib/GXRuler-Swift/GXRuler-Swift.xcodeproj"; sourceTree = "<group>"; };
 		E4C9CB721E8EA49F00EC07C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = GXSwift/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		E4C9CB741E8EA4D800EC07C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GXSwift/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -74,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4871D03204C3D4D00B77A3A /* GXRuler_Swift.framework in Frameworks */,
 				52DBD117C894CC8849202B3E /* libPods-GXSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +124,7 @@
 		92B4EE8EB2C013D6864C542B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4871CFA204C3D2100B77A3A /* GXRuler-Swift.xcodeproj */,
 				73E87F24E9D6BBD80C5B3FB4 /* libPods-GXSwift.a */,
 			);
 			name = Frameworks;
@@ -128,7 +153,9 @@
 		E41D69A91E8AC7E1002A464F /* GXSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E4C9CB1D1E8C0FE700EC07C0 /* Bundle */,
+				E4C9CB741E8EA4D800EC07C0 /* Info.plist */,
+				E4C9CB721E8EA49F00EC07C0 /* Assets.xcassets */,
+				E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */,
 				E41D69D81E8ACA97002A464F /* GXPhone */,
 			);
 			path = GXSwift;
@@ -146,8 +173,6 @@
 		E41D69D81E8ACA97002A464F /* GXPhone */ = {
 			isa = PBXGroup;
 			children = (
-				E41D69AA1E8AC7E1002A464F /* AppDelegate.swift */,
-				E41D69AC1E8AC7E1002A464F /* ViewController.swift */,
 				E41D69D91E8ACA97002A464F /* Base */,
 				E41D69DF1E8ACA97002A464F /* Business */,
 			);
@@ -217,13 +242,13 @@
 			path = User;
 			sourceTree = "<group>";
 		};
-		E4C9CB1D1E8C0FE700EC07C0 /* Bundle */ = {
+		E4871CFB204C3D2100B77A3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4C9CB741E8EA4D800EC07C0 /* Info.plist */,
-				E4C9CB721E8EA49F00EC07C0 /* Assets.xcassets */,
+				E4871D00204C3D2100B77A3A /* GXRuler_Swift.framework */,
+				E4871D02204C3D2100B77A3A /* GXRuler-SwiftTests.xctest */,
 			);
-			path = Bundle;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E4871D06204C3D4D00B77A3A /* PBXTargetDependency */,
 			);
 			name = GXSwift;
 			productName = GXSwift;
@@ -305,6 +331,12 @@
 			mainGroup = E41D699E1E8AC7E1002A464F;
 			productRefGroup = E41D69A81E8AC7E1002A464F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4871CFB204C3D2100B77A3A /* Products */;
+					ProjectRef = E4871CFA204C3D2100B77A3A /* GXRuler-Swift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E41D69A61E8AC7E1002A464F /* GXSwift */,
@@ -312,6 +344,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4871D00204C3D2100B77A3A /* GXRuler_Swift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GXRuler_Swift.framework;
+			remoteRef = E4871CFF204C3D2100B77A3A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E4871D02204C3D2100B77A3A /* GXRuler-SwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "GXRuler-SwiftTests.xctest";
+			remoteRef = E4871D01204C3D2100B77A3A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E41D69A51E8AC7E1002A464F /* Resources */ = {
@@ -387,7 +436,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41D69AD1E8AC7E1002A464F /* ViewController.swift in Sources */,
 				E41D69EA1E8ACA97002A464F /* GXPhoneBaseTabBarVC.swift in Sources */,
 				E41D69F01E8ACA97002A464F /* GXPhoneSearchVC.swift in Sources */,
 				E41D69EE1E8ACA97002A464F /* GXPhoneCategoryVC.swift in Sources */,
@@ -416,6 +464,11 @@
 			isa = PBXTargetDependency;
 			target = E41D69A61E8AC7E1002A464F /* GXSwift */;
 			targetProxy = E41D69BC1E8AC7E1002A464F /* PBXContainerItemProxy */;
+		};
+		E4871D06204C3D4D00B77A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GXRuler-Swift";
+			targetProxy = E4871D05204C3D4D00B77A3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

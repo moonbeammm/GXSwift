@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import GXRuler_Swift
 
 class GXPhoneHomeVC: GXPhoneBaseVC {
-
+    
     init() {
         super.init(nibName: nil, bundle: nil)
         self.tabBarItem.image = UIImage.init(named: "home_home_tab")
@@ -24,6 +25,10 @@ class GXPhoneHomeVC: GXPhoneBaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.red
+        
+        // 测试调用自定义framework里的方法!
+        let rulerMain = GXRulerMain.init()
+        rulerMain.RulerTestMethod(false)
     }
 
     override func viewWillAppear(_ animated: Bool) {

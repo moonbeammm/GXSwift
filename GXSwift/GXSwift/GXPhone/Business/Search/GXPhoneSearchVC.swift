@@ -23,9 +23,6 @@ class GXPhoneSearchVC: GXPhoneBaseTableVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
-        // 测试调用网络请求库方法
         self.view.backgroundColor = UIColor.gray
         // Do any additional setup after loading the view.
         self.tableView.frame = CGRect.init(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height - 44)
